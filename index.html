@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Meta Data -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Redesigning of Radium Home Page">
+
+	<!-- Title -->
+		<title>Radium - A React Component Styling Libary (Redesign)</title>
+
+	<!-- Link -->
+		<link rel="icon" href="./img/favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body style="background-color: #CCC">
+<!-- header -->
+	<header>
+		<div class="header-wrapper">
+		<!-- logo Formidable-->
+			<div class="logo">
+				<a href="#">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 30" style="width:450px;height:auto">
+						<path fill="currentColor" opacity=".75" d="M7.697 6.274l14.733 5.231L7.697 16.31V6.274z"/>
+						<path fill="currentColor" opacity=".5" d="M17.246 18.257l5.141-6.752L7.654 16.31l9.592 1.947z"/>
+						<path fill="currentColor" opacity=".25" d="M1.249 24.079l6.405-7.769 9.592 1.947-15.997 5.822z"/>
+						<path fill="currentColor" d="M33.2 11.053h5.98v-2.99h-9.13v14.17h3.18v-5.3h5.23v-2.88H33.2v-3zM44.14 11.993a5.27 5.27 0 1 0 5.28 5.26 5.13 5.13 0 0 0-5-5.261q-.138-.003-.28.001zm0 7.74a2.25 2.25 0 0 1-2.24-2.48 2.25 2.25 0 1 1 4.48 0 2.23 2.23 0 0 1-2.24 2.48zM53.33 13.633v-1.29h-2.94v9.93h3v-4.38c0-2 1.1-2.7 2.32-2.7a4.12 4.12 0 0 1 1 .1v-2.95a3 3 0 0 0-.8-.1 2.81 2.81 0 0 0-2.58 1.39zM69.32 11.993a3.41 3.41 0 0 0-3.08 1.56 3.07 3.07 0 0 0-2.94-1.56 3.46 3.46 0 0 0-2.86 1.44v-1.09h-2.9v9.93h3v-5.76a1.61 1.61 0 0 1 1.5-1.717h.144a1.51 1.51 0 0 1 1.6 1.68v5.76h3v-5.74A1.61 1.61 0 0 1 68.3 14.8h.143a1.51 1.51 0 0 1 1.58 1.68v5.76H73V15.8a3.48 3.48 0 0 0-3.68-3.8zM74.57 12.293h3.04v9.93h-3.04zM76.07 7.483a1.78 1.78 0 1 0 .02 0zM89.04 7.763h-3v5.32c-.24-.38-1-1-2.68-1a4.85 4.85 0 0 0-4.831 4.869q0 .156.011.311a4.92 4.92 0 0 0 4.611 5.211q.154.009.309.009a3.21 3.21 0 0 0 2.66-1.18 6.9 6.9 0 0 0 .08 1h2.92c0-.22-.08-.88-.08-1.78zm-5.2 12a2.24 2.24 0 0 1-2.24-2.51 2.25 2.25 0 1 1 4.48 0 2.24 2.24 0 0 1-2.24 2.48zM99.04 15.833c0-2-1.18-3.84-4.4-3.84-2.92 0-4.24 1.88-4.36 3.3l2.64.54a1.6 1.6 0 0 1 1.68-1.49 1.23 1.23 0 0 1 1.444.97q.011.054.016.11a.68.68 0 0 1-.679.681h-.041l-2.34.36a3.05 3.05 0 0 0-2.94 3 3.48 3.48 0 0 0 6.24 1.62 4.77 4.77 0 0 0 .1 1.12h2.74a9.75 9.75 0 0 1-.12-1.54v-4.83zm-3 2.5a1.71 1.71 0 0 1-1.82 2 1 1 0 0 1-1.18-1 1.1 1.1 0 0 1 1.1-1.1h.02l1.88-.3v.4zM106.46 12.053a3.57 3.57 0 0 0-2.86 1.18v-5.47h-3v14.47h2.94v-1.12a3.2 3.2 0 0 0 2.8 1.34c2.78 0 4.74-2.18 4.74-5.22s-1.74-5.18-4.62-5.18zm-.66 7.68a2.26 2.26 0 0 1-2.26-2.48 2.26 2.26 0 1 1 4.5 0 2.23 2.23 0 0 1-2.24 2.48zM112.05 7.763h3.04v14.47h-3.04zM125.98 17.093c0-3.2-1.9-5.1-5-5.1a5 5 0 0 0-5.006 4.994q0 .123.006.246a5.06 5.06 0 0 0 4.813 5.3q.184.009.367 0a4.46 4.46 0 0 0 4.64-3.19l-2.54-.72a1.92 1.92 0 0 1-2 1.3A2.15 2.15 0 0 1 119 18h6.92a6.111 6.111 0 0 0 .06-.907zm-6.92-1a1.89 1.89 0 0 1 2-1.68 1.78 1.78 0 0 1 1.988 1.544q.009.068.012.136zM7.697 6.274L1.292 24.079l6.405-7.769V6.274z"/>
+						<path fill="currentColor" d="M133.271 16.412a5.948 5.948 0 1 1 5.929 5.968 5.922 5.922 0 0 1-5.929-5.968zm9.205 0a3.258 3.258 0 1 0-3.276 3.335 3.272 3.272 0 0 0 3.276-3.335zM147.7 10.6h3.959a4.188 4.188 0 0 1 4.407 4.232 4.24 4.24 0 0 1-4.427 4.291h-1.268v3.1H147.7zm2.672 2.457v3.589h1.189a1.795 1.795 0 1 0 0-3.589zM158.6 10.6h6.884v2.5h-4.231v2.048h4.231v2.5h-4.231v2.087h4.231v2.5H158.6zM168.253 10.6h2.886l4.329 6.864V10.6h2.652v11.624h-2.672l-4.543-7.177v7.177h-2.652zM186.816 18.479l2.75.02v.059a1.288 1.288 0 0 0 1.4 1.364c.78 0 1.326-.37 1.326-1.072 0-.955-1.054-1.131-2.224-1.521-1.892-.624-3.081-1.287-3.081-3.55 0-1.95 1.7-3.354 3.959-3.354a3.509 3.509 0 0 1 3.842 3.627h-2.535v-.039a1.254 1.254 0 0 0-1.326-1.345c-.937 0-1.346.429-1.346 1.033 0 .917 1.072 1.053 2.262 1.541 1.443.585 3.14 1.189 3.14 3.588 0 1.911-1.4 3.568-4.173 3.568-2.589.002-3.994-1.383-3.994-3.919zM197.034 16.412a5.948 5.948 0 1 1 5.929 5.968 5.922 5.922 0 0 1-5.929-5.968zm9.205 0a3.258 3.258 0 1 0-3.276 3.335 3.272 3.272 0 0 0 3.276-3.335zM211.562 18.206V10.6h2.672v7.7a1.489 1.489 0 0 0 1.481 1.638 1.508 1.508 0 0 0 1.521-1.638v-7.7h2.672v7.605a4.173 4.173 0 1 1-8.347 0zM222.735 10.6h4.056c2.789 0 4.388 1.794 4.388 3.978A3.612 3.612 0 0 1 229 17.992l2.516 4.231h-3.022l-3.1-5.538v5.538h-2.652zm2.652 2.457v3.2h1.213a1.653 1.653 0 0 0 1.833-1.638c0-1.014-.585-1.56-1.833-1.56zM233.654 16.412a5.994 5.994 0 0 1 11.759-1.619h-2.886a3.047 3.047 0 0 0-2.866-1.736 3.223 3.223 0 0 0-3.3 3.354 3.174 3.174 0 0 0 3.3 3.335 2.91 2.91 0 0 0 2.69-1.619h2.983a5.966 5.966 0 0 1-11.681-1.716zM247.87 10.6h6.884v2.5h-4.231v2.048h4.231v2.5h-4.231v2.087h4.231v2.5h-6.884z"/>
+					</svg>	
+				</a>
+			</div>
+
+		<!-- Navigation -->
+			<nav>
+				<a href="#">DOCS</a>
+				<a href="#">ISSUES</a>
+				<a href="#">VIEW SOURCE ON GITHUB</a>
+			</nav>
+		</div>
+	</header>
+
+<!-- jumbotron -->
+	<div class="jumbotron">
+		<div class="jmb-wrapper">
+			<!-- logo Radium -->
+				<svg xmlns="http://www.w3.org/2000/svg" width="360" height="360" viewBox="0 0 360 360" style="width:100%;max-width:360px;height:auto">
+					<path d="M209.541 262.773l-29.167-55.742a65.382 65.382 0 0 1-6.767.234c-5.833 0-9.1-.234-14.7-.466v55.974H119.24V93.448a435.249 435.249 0 0 1 50.4-2.8c53.2 0 74.2 25.422 74.2 56.675 0 20.291-10.966 38.484-29.4 49.446l40.132 66h-45.031zM174.308 126.1a82.5 82.5 0 0 0-15.4 1.165v47.113a120.509 120.509 0 0 0 12.6.7c18.9 0 31.033-9.1 31.033-26.355 0-14.223-11.2-22.623-28.233-22.623zM322.147 331.468h-2.185v-1.522h6.254v1.522h-2.222v6.494h-1.847v-6.494zm11.883 3.426a87.232 87.232 0 0 1-.073-3.3h-.036a45.469 45.469 0 0 1-.9 3.1l-.991 3.129h-1.436l-.869-3.105a35.934 35.934 0 0 1-.736-3.128h-.025c-.048 1.082-.083 2.32-.144 3.318l-.146 3.045h-1.7l.519-8.016h2.45l.8 2.676c.254.928.508 1.927.688 2.867h.038c.229-.928.507-1.987.772-2.879l.869-2.664h2.4l.446 8.016h-1.8z" fill="#fff" fill-rule="evenodd"/>
+					<path d="M0 0v360h360V0H0zm348.175 348.175H11.825V11.825h336.35v336.35z" fill="#fff" fill-rule="evenodd"/>
+				</svg>
+			<!-- Content -->	
+				<div class="content">
+					<h1>Radium</h1>
+					
+					<p>
+						Radium is a set of tools to manageinline styles on React elements. It gives you powerful styling capabilities without CSS.
+					</p>
+					
+					<div class="btn-install"><code>npm install radium</code></div>
+				</div>
+				<div class="clear"></div>
+				<nav>
+					<div class="github">
+						<a href="#">
+							<svg xmlns="http://www.w3.org/2000/svg" height="20" width="20" viewBox="0 0 1024 1024">
+  							<path fill="currentColor" d="M512 0C229.25 0 0 229.25 0 512c0 226.25 146.688 418.125 350.156 485.812 25.594 4.688 34.938-11.125 34.938-24.625 0-12.188-0.469-52.562-0.719-95.312C242 908.812 211.906 817.5 211.906 817.5c-23.312-59.125-56.844-74.875-56.844-74.875-46.531-31.75 3.53-31.125 3.53-31.125 51.406 3.562 78.47 52.75 78.47 52.75 45.688 78.25 119.875 55.625 149 42.5 4.654-33 17.904-55.625 32.5-68.375C304.906 725.438 185.344 681.5 185.344 485.312c0-55.938 19.969-101.562 52.656-137.406-5.219-13-22.844-65.094 5.062-135.562 0 0 42.938-13.75 140.812 52.5 40.812-11.406 84.594-17.031 128.125-17.219 43.5 0.188 87.312 5.875 128.188 17.281 97.688-66.312 140.688-52.5 140.688-52.5 28 70.531 10.375 122.562 5.125 135.5 32.812 35.844 52.625 81.469 52.625 137.406 0 196.688-119.75 240-233.812 252.688 18.438 15.875 34.75 47 34.75 94.75 0 68.438-0.688 123.625-0.688 140.5 0 13.625 9.312 29.562 35.25 24.562C877.438 930 1024 738.125 1024 512 1024 229.25 794.75 0 512 0z"/>
+							</svg>
+							GITHUB PROJECT
+						</a>
+					</div>
+					<a href="#">USING RADIUM</a>
+					<a href="#">API DOCS</a>
+					<a href="#">F.A.Q</a>
+				</nav>
+		</div>
+	</div>
+
+<!-- main content -->
+	<div class="main-content">
+		<div class="main-wrapper">
+			<h1>Why Radium</h1>
+				<p>
+					Radium unlocks the power of React &#38 inline styling by enabling support for CSS pseudo selectors, media queries, vendor-prefixing, and much more through a simple interface.
+				</p>
+
+			<div class="sample">
+				<img src="./img/snippet1.jpg" alt="snippet sample">
+			</div>
+			<br>
+
+			<h3>Radium Features &#38 Functionality</h3>
+				<ul>
+					<li>Conceptually simple extension of normal inline styles</li>
+					<li>Browser state styles to support :hover,:focus, and :active Media queries</li>
+					<li>Automatic vendor prefixing</li>
+					<li>Keyframes animation helpler</li>
+					<li>ES6 class and createClass support</li>
+				</ul><br>
+			<h3>Advantages of Inline Styles</h3>
+				<p>
+					Eliminating CSS in favor of inline styles that are computed on the fly is a powerful approach, providing a number of benefits over traditional CSS:
+				</p>
+				<ul>
+					<li>Scoped styles without selectors</li>
+					<li>Avoids specifity conflicts</li>
+					<li>Source order independence</li>
+					<li>Dead code elimination</li>
+					<li>Highly expressive</li>
+				</ul>
+				<p>To learn more about CSS in JS and the inspirations behind this library, check out <a href="#">React: CSS in JS</a> by <a href="#">vjeux</a></p><br>
+			
+			<h3>Getting Started with Radium</h3>
+
+				<p>To install the stable version of Radium:</p>
+
+				<div class="npm">npm install --save radium</div><br>
+
+				<p>This assumes you are using npm as your package manager. If you don't, you can <a href="#">access these files on npmcdn</a> or point your package manager to them.</p>
+
+				<p>Next, wrap <code>Radium()</code> around your component, like <code>module.exports = Radium(Component)</code>, Or <code>Component = Radium(Component)</code>, which works with classes, createClass, and stateless components (functions that take props and return a ReactElement).</p>
+
+				<p>Then, write a style objects as you normally would with inline styles, and add in styles for interactive states and media queries. Pass the style object to your component via <code>style={...}</code> and let Radium do the rest!</p>
+				<img src="./img/snippet2.jpg" alt="snippet sample">
+				<br>
+		</div>
+	</div>
+<!-- Documentation -->
+	<div class="documentation">
+		<div class="doc-wrapper">
+			<h2>Documentation</h2>
+			<p>Find guides, explorer examples, and reference our API documentation.</p>
+			<!-- <div class="btn-viewdocs"> -->
+				<a href="#">View Radium Docs</a>
+			<!-- </div> -->
+		</div>
+	</div>
+<!-- footer -->
+	<footer>
+		<div class="footer-wrapper">
+			<!-- navigation -->
+				<nav>
+					<a href="#">CONTACT</a>
+					<a href="#">CAREERS</a>
+					<a href="#">TWITTER</a>
+					<a href="#">GITHUB</a>
+				</nav>
+			<!-- logo Formidable -->
+				<a href="#">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 126 30" style="width:200px;height:auto">
+					<path fill="currentColor" d="M33.2 11.1h5.9v-3H30v14.1h3.2v-5.3h5.2v-2.8h-5.2v-3zM44.1 12a5.3 5.3 0 1 0 5.3 5.3 5.209 5.209 0 0 0-5-5.3h-.3zm0 7.7a2.308 2.308 0 0 1-2.3-2.2v-.2a2.391 2.391 0 0 1 2-2.5 2.31 2.31 0 0 1 2.5 2v.4a2.31 2.31 0 0 1-2 2.5zM53.3 13.6v-1.3h-2.9v9.9h3v-4.4c0-2 1.1-2.7 2.3-2.7a3.4 3.4 0 0 1 1 .1v-2.9a2.2 2.2 0 0 0-.8-.1 2.9 2.9 0 0 0-2.6 1.4zM69.3 12a3.372 3.372 0 0 0-3.1 1.6 2.979 2.979 0 0 0-2.9-1.6 3.7 3.7 0 0 0-2.9 1.4v-1.1h-2.9v9.9h3v-5.8a1.526 1.526 0 0 1 1.5-1.7h.1a1.477 1.477 0 0 1 1.6 1.4v6.1h3v-5.7a1.579 1.579 0 0 1 1.5-1.7h.1a1.617 1.617 0 0 1 1.6 1.4v6.1h3v-6.4a3.474 3.474 0 0 0-3.1-3.8.749.749 0 0 0-.5-.1zM74.5 12.3h3v9.9h-3zM76 7.5a1.8 1.8 0 1 0 1.8 1.8A1.793 1.793 0 0 0 76 7.5zM89 7.8h-3v5.3c-.2-.4-1-1-2.7-1a4.823 4.823 0 0 0-4.8 4.9v.3a4.914 4.914 0 0 0 4.6 5.2h.3a3.257 3.257 0 0 0 2.7-1.2 3.4 3.4 0 0 0 .1 1h2.9c0-.2-.1-.9-.1-1.8zm-5.2 12a2.38 2.38 0 0 1-2.3-2.2v-.3a2.264 2.264 0 1 1 4.5-.5v.4a2.391 2.391 0 0 1-2 2.5.31.31 0 0 0-.2.1zM99 15.8c0-2-1.2-3.8-4.4-3.8-2.9 0-4.2 1.9-4.4 3.3l2.6.5a1.649 1.649 0 0 1 1.7-1.5 1.174 1.174 0 0 1 1.4 1v.1a.684.684 0 0 1-.7.7l-2.2.4a3.058 3.058 0 0 0-2.9 3 3.552 3.552 0 0 0 3.9 3 3.15 3.15 0 0 0 2.3-1.4 3.75 3.75 0 0 0 .1 1.1h2.7a7.569 7.569 0 0 1-.1-1.5v-4.9zm-3 2.5a1.769 1.769 0 0 1-1.4 2h-.4a1.1 1.1 0 0 1-1.2-.8v-.2a1.11 1.11 0 0 1 1.1-1.1l1.9-.3zM106.4 12.1a3.646 3.646 0 0 0-2.9 1.2V7.8h-3v14.5h2.9v-1.1a3.052 3.052 0 0 0 2.8 1.3c2.8 0 4.7-2.2 4.7-5.2s-1.6-5.2-4.5-5.2zm-.6 7.6a2.308 2.308 0 0 1-2.3-2.2v-.2a2.264 2.264 0 1 1 4.5-.5v.4a2.31 2.31 0 0 1-2 2.5zM112 7.8h3v14.5h-3zM125.9 17.1c0-3.2-1.9-5.1-5-5.1a4.951 4.951 0 0 0-5 5v.2a5.045 5.045 0 0 0 4.8 5.3h.4a4.43 4.43 0 0 0 4.6-3.2l-2.5-.7a1.956 1.956 0 0 1-2 1.3 2.26 2.26 0 0 1-2.3-1.9h6.9a1.412 1.412 0 0 0 .1-.9zm-6.9-1a1.96 1.96 0 0 1 2-1.7 1.8 1.8 0 0 1 2 1.5v.1h-4zM12.9 2.4L.8 27.6l12.1-9.9V2.4z"/>
+					<path fill="currentColor" opacity=".75" d="M12.9 2.4l9.4 18.4-9.4-3.1V2.4z"/>
+					<path fill="currentColor" opacity=".5" d="M12.9 26.4l9.4-5.6-9.4-3.1v8.7z"/>
+					<path fill="currentColor" opacity=".25" d="M.8 27.6l12.1-9.9v8.7L.8 27.6z"/>
+				</svg>
+				</a>
+				<div class="clear"></div>
+			<!-- copyright -->
+				<div class="copyright">
+					Radium&#174 is a trademark of Formidable Labs, Inc.
+				</div>
+		</div>
+	</footer>
+
+</body>
+</html>

@@ -1,0 +1,22 @@
+%wrap {
+	display: inline-block;
+	height: inherit;
+	width: $primary-width;
+	margin: 0 auto;	
+}
+
+%pcontent {
+	font-size: $content-fontsize;
+}
+
+%h1 {
+	font-size: $h1-fontsize;
+}
+
+%h2 {
+	font-size: $h2-fontsize;
+}
+
+%h3 {
+	font-size: $h3-fontsize;
+}

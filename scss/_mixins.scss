@@ -1,0 +1,25 @@
+@mixin font-face($font, $ext: ttf){
+	$font: unquote($font);
+	$ext: $ext;
+	@font-face{
+		font-family: $font;
+		@if	$ext == ttf {
+			src: url(/radium/fonts/#{$font}.ttf)
+		} @else if $ext == otf{
+			src: url(/radium/fonts/#{$font}.otf)
+		}
+	}
+}
+
+@mixin a ($color: $link-color, $hover: $link-color) {
+	a {
+		color: $color;
+		text-decoration: none;
+		transition: color 0.7s ease;
+		
+		&:hover{
+			color: lighten($hover, 30%);
+			cursor: pointer;
+		}
+	}
+}
